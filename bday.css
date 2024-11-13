@@ -1,0 +1,33 @@
+.main_div {
+    text-align: center;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: bisque;
+    border-radius: 18px;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+.main_div input {
+    border: none;
+    text-align: center;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgb(228, 196, 157);
+}
+
+button {
+    border-radius: 8px;
+    border: none;
+    height: 30px;
+}
+
+button:hover {
+    background-color: rgb(218, 171, 110);
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
