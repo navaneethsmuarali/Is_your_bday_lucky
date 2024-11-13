@@ -37,3 +37,45 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(33, 43, 53);
 }
+
+@media (max-width: 375px) {
+    .main_div {
+        width: 80%;
+        margin-left: 10%;
+        padding: 3rem;
+    }
+    .main_div input {
+        height: 35px;
+    }
+    button {
+        height: 28px;
+    }
+}
+
+@media (max-width: 425px) {
+    .main_div {
+        width: 80%;
+        margin-left: 10%;
+        padding: 3.5rem;
+    }
+    .main_div input {
+        height: 38px;
+    }
+    button {
+        height: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main_div {
+        width: 70%;
+        margin-left: 15%;
+        padding: 4rem;
+    }
+    .main_div input {
+        height: 40px;
+    }
+    button {
+        height: 32px;
+    }
+}
