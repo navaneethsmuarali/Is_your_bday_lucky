@@ -13,7 +13,10 @@ ClickButton.addEventListener('click', function() {
         sum = sum + Number(Dob.charAt(i))
 
     }
-    if (sum % Number(Lucky_Number.value) === 0) {
+    if (Lucky_Number.value < 0) {
+        Out.innerText = 'Enter a valid number'
+        Out.style.color = 'red'
+    } else if (sum % Number(Lucky_Number.value) === 0) {
 
         Out.innerText = 'Your are lucky'
     } else {

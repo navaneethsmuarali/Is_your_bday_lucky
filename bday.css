@@ -8,8 +8,15 @@
     border-radius: 18px;
     margin-left: 40%;
     margin-top: 5%;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     font-size: larger;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 29px;
 }
 
 .main_div input {
@@ -36,6 +43,17 @@ button:hover {
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(33, 43, 53);
+}
+
+label {
+    font-weight: 600;
+    color: white;
+}
+
+#Dateinput,
+#Lucky_nmbr {
+    color: black;
+    font-size: larger;
 }
 
 @media (max-width: 375px) {
